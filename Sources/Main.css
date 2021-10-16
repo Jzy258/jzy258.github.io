@@ -1,0 +1,70 @@
+body{
+	font-family: 微软雅黑 黑体 宋体;
+}
+
+.header{
+	position: top;
+	padding: 5px;
+	background-color: #333333;
+	margin-bottom: 0px;
+}
+	div.HClinks{
+		padding: 5px;
+	}
+		ul.HClinks{
+			list-style: none;
+			padding-left: 5px;
+			margin: 10px 0px 0px 0px;
+		}
+
+		a.HClinks:hover{
+			background-color: #666;
+		}
+
+			a.HClinks{
+				text-decoration: none;
+				color: white;
+				padding: 10px;
+			}
+				img.HClinks-home{
+					height: 25px;
+					width: 25px;
+				}
+
+.title{
+	font-size: 300%;
+	color: white;
+	background-color: #333333;
+	padding: 150px;
+	margin-top: 0px;
+}
+
+.introduction{
+	font-size: 20px;
+}
+
+.sub-headers{
+	padding: 20px 0px 10px 20px;
+}
+.passages{
+	padding: 10px 0px 10px 20px;
+}
+
+.end{
+	background-color: #333333;
+	padding: 10px;
+	margin-top: 100px;
+	color: white;
+	font-size: 80%;
+}
+
+.copyright{
+	font-size: 75%;
+	color: #888888;
+	margin-bottom:10px;
+	margin-top: 10px;
+}
+
+/*
+[滑稽]
+*/
