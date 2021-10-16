@@ -1,11 +1,11 @@
 body{
 	font-family: 微软雅黑 黑体 宋体;
+	margin: 0px;
 }
 
 .header{
 	position: top;
-	padding: 5px;
-	background-color: #333333;
+	background-color: #333;
 	margin-bottom: 0px;
 }
 	div.HClinks{
@@ -16,20 +16,24 @@ body{
 			padding-left: 5px;
 			margin: 10px 0px 0px 0px;
 		}
-
-		a.HClinks:hover{
-			background-color: #666;
+		li.HClinks{
+			padding: 0px;
+			float: left;
 		}
-
-			a.HClinks{
-				text-decoration: none;
-				color: white;
-				padding: 10px;
-			}
-				img.HClinks-home{
-					height: 25px;
-					width: 25px;
+				a.HClinks:hover{
+					background-color: #555;
 				}
+
+				a.HClinks{
+						text-decoration: none;
+						color: #fff;
+						padding: 5px 5px 5px 5px;
+				}
+					img.HClinks-home{
+						height: 15px;
+						width: 15px;
+					}
+
 
 .title{
 	font-size: 300%;
@@ -48,10 +52,11 @@ body{
 }
 .passages{
 	padding: 10px 0px 10px 20px;
+	width: 500px;
 }
 
 .end{
-	background-color: #333333;
+	background-color: #333;
 	padding: 10px;
 	margin-top: 100px;
 	color: white;
