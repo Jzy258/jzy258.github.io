@@ -1,8 +1,4 @@
-body{
-        background-color: red;
-}
-
-
-.Xtitle{
-        background-color: red;
+.h1{
+        color: red;
+        text-align: center;
 }
