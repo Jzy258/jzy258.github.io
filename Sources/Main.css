@@ -61,7 +61,8 @@ div.HClinks{
 	margin-top: 100px;
 	color: white;
 	font-size: 80%;
-        position: bottom;
+        position: absolute;
+        bottom: 0px;
 }
 
 .copyright{
