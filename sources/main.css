@@ -1,6 +1,5 @@
 
 /*主要*/
-
 body{
 	font-family: 微软雅黑 黑体 宋体;
 	margin: 0px;
@@ -78,12 +77,17 @@ body{
 
 
 /*批判录*/
-
+div.comrades{
+	height:auto;
+  	width:auto;
+  	float:left;
+  	text-align:center;
+}
 div.pplTitle{
     color: red;
     font-size: 150%;
 }
 	img.comintern{
-		height: 50%;
-		width: 50%;
+		height: 100px;
+		width: 100px;
 	}
