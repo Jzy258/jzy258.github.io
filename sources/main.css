@@ -1,0 +1,74 @@
+body{
+	font-family: 微软雅黑 黑体 宋体;
+	margin: 0px;
+}
+	div.headLinks{
+		padding-left: 0px;
+		padding-bottom: 5px;
+		background-color: #333;
+		height: 50px;
+	}
+		ul.headLinks{
+			margin: 0px; /*勿删，否则会出现顶部白边*/
+			padding: 10px;
+			list-style: none;
+		}
+			li.headLinks{
+				float: left;
+				padding: 10px;
+			}
+			li.headLinks-home{
+				float: left;
+				padding: 5px 10px 10px 10px;
+			}
+				a.headLinks:hover{
+					background-color: #555;
+				}
+
+				a.headLinks{
+					text-decoration: none;
+					color: #fff;
+					padding: 5px;
+				}
+
+				a.headLinks-home{
+					font-size: 125%;
+					text-decoration: none;
+					color: #fff;
+					padding: 5px;
+				}
+					img.headLinks-home{
+						height: 20px;
+						width: 20px;
+					}
+	div.logs{
+		padding-left: 20px;
+	}
+	div.title{
+		font-size: 250%;
+		color: white;
+		background-color: #333;
+		padding-top: 125px;
+		padding-bottom: 125px;
+		margin: 0px;
+	}
+	div.mainBody{
+		padding: 20px 0px 10px 20px;
+	}
+	div.ends{
+		background-color: #333;
+		padding: 10px 10px 100px 20px;
+		margin-top: 100px;
+		color: white;
+		font-size: 80%;
+	}
+		a.links{
+			text-decoration: none;
+			color: #00c;
+		}
+	div.copyright{
+	font-size: 75%;
+	color: #888;
+	margin-bottom:10px;
+	margin-top: 10px;
+	}
