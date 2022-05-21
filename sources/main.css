@@ -46,7 +46,7 @@ body{
 	div.logs{
 		padding-left: 20px;
 	}
-	div.title{
+	div.mainTitle{
 		font-size: 250%;
 		color: white;
 		background-color: #333;
@@ -64,16 +64,18 @@ body{
 		color: white;
 		font-size: 80%;
 	}
-		a.links{
-			text-decoration: none;
-			color: #00c;
-		}
+		
 	div.copyright{
 	font-size: 75%;
 	color: #888;
 	margin-bottom:10px;
 	margin-top: 10px;
 	}
+
+a.links{
+	text-decoration: none;
+	color: #00c;
+}
 
 
 /*批判录*/
@@ -103,4 +105,17 @@ div.pplTitle{
 	img.comintern{
 		height: 150px;
 		width: 150px;
+	}
+
+
+/*实用网站*/
+h1.title{
+	color: #008;
+}
+div.websites-links{
+	padding-left: 20px;
+}
+	a.websites-links{
+		text-decoration: none;
+		color: #080;
 	}
