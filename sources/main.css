@@ -77,8 +77,8 @@ body{
 
 
 /*批判录*/
-div.comrades{
-	height:auto;
+img.comrades{
+	height:200px;
   	width:auto;
   	float:left;
   	text-align:center;
