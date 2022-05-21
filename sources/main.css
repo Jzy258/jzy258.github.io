@@ -77,17 +77,30 @@ body{
 
 
 /*批判录*/
-img.comrades{
-	height:200px;
-  	width:auto;
-  	float:left;
-  	text-align:center;
+div.comrades{
+	margin: auto;
 }
+div.comrade{
+	width:150px;
+	float:left;
+	text-align:center;
+}
+	img.comrade-img{
+		height:200px;
+		width:auto;
+		float:left;
+
+	}
+	div.comrade-desc{
+		text-align:center;
+	}
+
 div.pplTitle{
+	clear: both;
     color: red;
     font-size: 150%;
 }
 	img.comintern{
-		height: 100px;
-		width: 100px;
+		height: 150px;
+		width: 150px;
 	}
