@@ -77,6 +77,10 @@ a.links{
 	color: #00c;
 }
 
+h1.title{
+	color: #008;
+}
+
 
 /*批判录*/
 div.comrades{
@@ -109,9 +113,6 @@ div.pplTitle{
 
 
 /*实用网站*/
-h1.title{
-	color: #008;
-}
 div.websites-links{
 	padding-left: 20px;
 }
@@ -119,3 +120,16 @@ div.websites-links{
 		text-decoration: none;
 		color: #080;
 	}
+
+
+/*高级玩意*/
+div.fun-links{
+	padding-left: 20px;
+}
+	a.fun-links{
+		text-decoration: none;
+		color: #008;
+	}
+p.fun-desc{
+	padding-left: 30px;
+}
