@@ -1,80 +1,48 @@
 
-/*主要*/
+/*通用*/
 body{
 	font-family: 微软雅黑 黑体 宋体;
 	margin: 0px;
 }
-	div.headLinks{
-		padding-left: 0px;
-		padding-bottom: 5px;
-		background-color: #333;
-		height: 50px;
-	}
-		ul.headLinks{
-			margin: 0px; /*勿删，否则会出现顶部白边*/
-			padding: 10px;
-			list-style: none;
-		}
-			li.headLinks{
-				float: left;
-				padding: 10px;
+
+div.headLinks{
+	padding-left: 0px;
+	padding-bottom: 5px;
+	background-color: #333;
+	height: 50px;
+}
+ul.headLinks{
+	margin: 0px; /*勿删，否则会出现顶部白边*/
+	padding: 10px;
+	list-style: none;
+}
+li.headLinks{
+	float: left;
+	padding: 10px;
+}
+li.headLinks-home{
+	float: left;
+	padding: 5px 10px 10px 10px;
 			}
-			li.headLinks-home{
-				float: left;
-				padding: 5px 10px 10px 10px;
-			}
-				a.headLinks:hover{
-					background-color: #555;
-				}
+a.headLinks:hover{
+	background-color: #555;
+}
 
-				a.headLinks{
-					text-decoration: none;
-					color: #fff;
-					padding: 5px;
-				}
-
-				a.headLinks-home{
-					font-size: 125%;
-					text-decoration: none;
-					color: #fff;
-					padding: 5px;
-				}
-					img.headLinks-home{
-						height: 20px;
-						width: 20px;
-					}
-	div.logs{
-		padding-left: 20px;
-	}
-	div.mainTitle{
-		font-size: 250%;
-		color: white;
-		background-color: #333;
-		padding-top: 125px;
-		padding-bottom: 125px;
-		margin: 0px;
-	}
-	div.mainBody{
-		padding: 20px 0px 10px 20px;
-	}
-	div.ends{
-		background-color: #333;
-		padding: 10px 10px 100px 20px;
-		margin-top: 100px;
-		color: white;
-		font-size: 80%;
-	}
-		
-	div.copyright{
-	font-size: 75%;
-	color: #888;
-	margin-bottom:10px;
-	margin-top: 10px;
-	}
-
-a.links{
+a.headLinks{
 	text-decoration: none;
-	color: #00c;
+	color: #fff;
+	padding: 5px;
+				}
+
+a.headLinks-home{
+	font-size: 125%;
+	text-decoration: none;
+	color: #fff;
+	padding: 5px;
+				}
+img.headLinks-home{
+	height: 20px;
+	width: 20px;
 }
 
 h1.title{
@@ -82,6 +50,47 @@ h1.title{
 }
 p{
 	line-height: 150%;
+}
+a.links{
+	text-decoration: none;
+	color: #00c;
+}
+
+
+
+/*主页*/
+div.mainTitle{
+	font-size: 250%;
+	color: white;
+	background-color: #333;
+	padding-top: 125px;
+	padding-bottom: 125px;
+	margin: 0px;
+	}
+div.mainBody{
+	padding: 20px 0px 10px 20px;
+}
+
+div.logs{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+iframe.logs{
+	width: 100%;
+}
+
+div.ends{
+	background-color: #333;
+	padding: 10px 10px 100px 20px;
+	margin-top: 100px;
+	color: white;
+	font-size: 80%;
+}	
+div.copyright{
+font-size: 75%;
+color: #888;
+margin-bottom:10px;
+margin-top: 10px;
 }
 
 
@@ -94,53 +103,53 @@ div.comrade{
 	float:left;
 	text-align:center;
 }
-	img.comrade-img{
-		height:200px;
-		width:auto;
-		float:left;
+img.comrade-img{
+	height:200px;
+	width:auto;
+	float:left;
 
-	}
-	div.comrade-desc{
-		text-align:center;
-	}
+}
+div.comrade-desc{
+	text-align:center;
+}
 
 div.pplTitle{
 	clear: both;
     color: red;
     font-size: 150%;
 }
-	img.comintern{
-		height: 150px;
-		width: 150px;
-	}
+img.comintern{
+	height: 150px;
+	width: 150px;
+}
 
 
 /*实用网站*/
 div.websites-links{
 	padding-left: 20px;
 }
-	a.websites-links{
-		text-decoration: none;
-		color: #008;
-	}
+a.websites-links{
+	text-decoration: none;
+	color: #008;
+}
 
 
 /*高级玩意*/
 div.fun-link{
-	padding-left: 20px;
+padding-left: 20px;
 }
-	a.fun-links{
-		text-decoration: none;
-		color: #008;
-	}
-	a.h-fun-links{
-		text-decoration: none;
-		color: #333;
-	}
+a.fun-links{
+	text-decoration: none;
+	color: #008;
+}
+a.h-fun-links{
+	text-decoration: none;
+	color: #333;
+}
 p.fun-desc{
-	padding-left: 30px;
+padding-left: 30px;
 }
 p.h-fun-desc{
-	padding-left: 30px;
-	color: #333;
+padding-left: 30px;
+color: #333;
 }
