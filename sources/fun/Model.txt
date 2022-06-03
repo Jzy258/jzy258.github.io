@@ -38,38 +38,6 @@
 		</div>
 
 
-		<div>
-			<h1 class="title" align="center">高级玩意</h1>
-		</div>
-
-
-		<div class="fun-link">
-			<a class="fun-links" target="_blank" href="sources/fun/AutoKey&Mouse.java">
-			【Java】自动键鼠</a>
-			<p class="fun-desc">模拟键盘输入和鼠标点击。</p>
-		</div>
-
-		<div class="fun-link">
-			<a class="fun-links" target="_blank" href="sources/fun/GuessTheNumber.py">
-			【Python】猜数字</a><br>
-			<p class="fun-desc">在1~1000的范围内随机生成一个整数，要求在尽可能少的步数内猜出这个数。</p>
-		</div>
-
-		<div class="fun-link">
-			<a class="fun-links" target="_blank" href="sources/fun/Model.txt">
-			【Text】乐色网站模板</a><br/>
-			<p class="fun-desc">构建乐色网站所使用的模板。</p>
-		</div>
-
-
-
-		<div class="fun-link">
-			<a class="h-fun-links" target="_blank" href="sources/fun/AntimatterDimensionsData.txt">
-			【Text】反物质维度数据</a>	
-			<p class="h-fun-desc">反物质维度的游戏数据。</p>	
-		</div>
-
-
 
 		<div class="ends" id="contacts">
 			联系我们：<br/>

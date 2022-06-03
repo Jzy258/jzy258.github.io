@@ -80,6 +80,9 @@ a.links{
 h1.title{
 	color: #008;
 }
+p{
+	line-height: 150%;
+}
 
 
 /*批判录*/
@@ -118,18 +121,26 @@ div.websites-links{
 }
 	a.websites-links{
 		text-decoration: none;
-		color: #080;
+		color: #008;
 	}
 
 
 /*高级玩意*/
-div.fun-links{
+div.fun-link{
 	padding-left: 20px;
 }
 	a.fun-links{
 		text-decoration: none;
 		color: #008;
 	}
+	a.h-fun-links{
+		text-decoration: none;
+		color: #333;
+	}
 p.fun-desc{
 	padding-left: 30px;
+}
+p.h-fun-desc{
+	padding-left: 30px;
+	color: #333;
 }
