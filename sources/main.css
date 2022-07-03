@@ -55,6 +55,12 @@ a.links{
 	text-decoration: none;
 	color: #00c;
 }
+p.passages{
+	padding-left: 40px;
+}
+h2.subtitles{
+	padding-left: 20px;
+}
 
 
 
@@ -67,9 +73,6 @@ div.mainTitle{
 	padding-bottom: 125px;
 	margin: 0px;
 	}
-div.mainBody{
-	padding: 20px 0px 10px 20px;
-}
 
 div.logs{
 	padding-left: 20px;
@@ -87,10 +90,10 @@ div.ends{
 	font-size: 80%;
 }	
 div.copyright{
-font-size: 75%;
-color: #888;
-margin-bottom:10px;
-margin-top: 10px;
+	font-size: 75%;
+	color: #888;
+	margin-bottom:10px;
+	margin-top: 10px;
 }
 
 
@@ -136,7 +139,7 @@ a.websites-links{
 
 /*高级玩意*/
 div.fun-link{
-padding-left: 20px;
+	padding-left: 20px;
 }
 a.fun-links{
 	text-decoration: none;
@@ -147,9 +150,17 @@ a.h-fun-links{
 	color: #fff;
 }
 p.fun-desc{
-padding-left: 30px;
+	padding-left: 30px;
 }
 p.h-fun-desc{
-padding-left: 30px;
-color: #fff;
+	padding-left: 30px;
+	color: #fff;
+}
+
+
+
+/*寄分榜*/
+div.list{
+	font-size: 150%;
+	padding-left: 20px;
 }
