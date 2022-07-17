@@ -55,11 +55,23 @@ a.links{
 	text-decoration: none;
 	color: #00c;
 }
+a.d-links{
+	text-decoration: none;
+	color: #008;
+}
 p.passages{
 	padding-left: 40px;
 }
 h2.subtitles{
 	padding-left: 20px;
+}
+a.h-links{
+	text-decoration: none;
+	color: #fff;
+}
+p.h-passages{
+	padding-left: 40px;
+	color: #fff;
 }
 
 
@@ -140,21 +152,6 @@ a.websites-links{
 /*高级玩意*/
 div.fun-link{
 	padding-left: 20px;
-}
-a.fun-links{
-	text-decoration: none;
-	color: #008;
-}
-a.h-fun-links{
-	text-decoration: none;
-	color: #fff;
-}
-p.fun-desc{
-	padding-left: 30px;
-}
-p.h-fun-desc{
-	padding-left: 30px;
-	color: #fff;
 }
 
 
