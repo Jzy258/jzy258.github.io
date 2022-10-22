@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>乐色</title>
+		<title>乐色之家</title>
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="https://jzy258.github.io/sources/main.css">
 		<link rel="shortcut icon" type="image/x-icon" href="https://jzy258.github.io/sources/icon.png">
