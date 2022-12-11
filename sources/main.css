@@ -3,7 +3,7 @@
 body{
 	font-family: 微软雅黑 黑体 宋体;
 	margin: 0px;
-	background-color: #DDD
+	background-color: #EEE
 }
 
 div.headLinks{
@@ -68,11 +68,11 @@ h2.subtitles{
 }
 a.h-links{
 	text-decoration: none;
-	color: #ddd;
+	color: #eee;
 }
 p.h-passages{
 	padding-left: 40px;
-	color: #ddd;
+	color: #eee;
 }
 
 
