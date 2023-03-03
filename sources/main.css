@@ -123,6 +123,8 @@ div.copyright{
 
 /*批判录*/
 div.comrades{
+	display: flex;
+	justify-content: space-around;
 	margin: auto;
 }
 div.comrade{
